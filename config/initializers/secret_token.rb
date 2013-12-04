@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Gradeape::Application.config.secret_key_base = '22c0f962c4f9416aab25ab9c5031f52a7d74ade8ed812f9ef3181fc86fbe2a81f685d7aebba6cb00c463c23a46feba21d9d3a9d5411f134d6b6fa3309cd3c17a'
+Gradeape::Application.config.secret_key_base = '031918811121c0237b3615e81831033a5819e23c7f96204794c87471cd2d765a6c413c303bd77f0cf685eb255441873a2e4bb7a9a97bbc17ebfd7ef2201e5231'
