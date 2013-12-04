@@ -5,7 +5,7 @@
       <li class="name">
         <h1>
           <a href="#">
-            Grade APE
+            grade Ape
           </a>
         </h1>
       </li>
@@ -16,33 +16,57 @@
     <section class="top-bar-section">
       <!-- Left Nav Section -->
       <ul class="left">
+
+         	<li class="has-form">
+         		<!-- <div class="row collapse"> -->
+    				<div id="user" class="large-4 small-4 columns">
+	      				<input type="text" placeholder="username">
+	      			</div>
+	      			<div id="pass" class="large-4 small-4 columns">
+	      				<input type="text" placeholder="password">
+	      			</div>	
+	      			<div id="login" class="large-4 small-4 columns">
+	      				<a href="#" class="button">Login</a>
+	      			</div>
+<script>
+$( "#user" ).hide();
+$( "#pass" ).hide();
+$( "#login" ).hide();
+
+</script>				
+		</li>
         <li class="divider"></li>
-        	<li class="has-dropdown">
-          		<a class="active" href="#">Canvas</a>
+            <li class="has-dropdown">
+          		<a class="active" href="#">Get</a>
 		          <ul class="dropdown">
-		            <li><a href="#">Login</a></li>
-		            <li><a href="#">Get Grades</a></li>
-		            <li><a href="#">Send Grades</a></li>
+		            <li><a href="#">Course 1</a></li>
+		            <li><a href="#">Course 2</a></li>
+		            <li><a href="#">Course 3</a></li>
+		            <li><a href="#">Course 4</a></li>
 		          </ul>
-        	</li>
+        </li>
+      
         <li class="divider"></li>
 	        <li class="has-dropdown">
-	          <a class="active" href="#">Make Changes</a>
+	          <a class="active" href="#">Change</a>
 		          <ul class="dropdown">
-		            <li><a href="#" data-reveal-id="extraCredit">Extra Credit (EC)</a></li>
-		            <li><a href="#" data-reveal-id="masteryPoints">Mastery Points (MP)</a></li>
 		            <li><a href="#" data-reveal-id="blankScores">Blank Scores (BS)</a></li>
+		            <li><a href="#" data-reveal-id="extraCredit">Extra Credit (EC)</a></li>
+		            <!-- <li><a href="#" data-reveal-id="masteryPoints">Mastery Points (MP)</a></li> -->
 		          </ul>
-	        </li>
+	     </li>
+
+  		<li class="divider"></li>
+        	<li class="has-form">
+          		<a class="button" style="background:green" href="#">Send</a>
+        </li>
       </ul>
-      
-      <!-- Right Nav Section -->
+
       <ul class="right">
         <li>
           <a href="#">Logout</a>
         </li>
       </ul>
-    </section>
 
   </nav><!-- End Header and Nav -->
 
@@ -192,7 +216,7 @@
 </div><!--IFTHENOR ends-->
 	
 	<div class="right">
-		<p><span id="XXXXX" class="small button center" onClick="">record</span>&nbsp;&nbsp;</p>
+		<p><span id="XXXXX" class="small button center" onClick="">calculate</span>&nbsp;&nbsp;</p>
 	</div>
 
 		<a class="close-reveal-modal">&#215;</a>		  
